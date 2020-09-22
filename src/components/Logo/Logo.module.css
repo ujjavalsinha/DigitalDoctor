@@ -1,0 +1,29 @@
+.Logotext{
+    color : white;
+    font-weight : bold;
+    display : flex;
+    font-size : 25px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    margin-left : 100px;
+    
+}
+.Logotext p{
+    margin-left : 5px;
+}
+.Hamburger img{
+    display : none;
+}
+
+@media (max-width : 500px){
+    .Logotext{
+        display : none;
+    }
+    .Hamburger{
+        display: inline-block;
+        width: 34px;
+        height: 41px;
+        margin-left: 10px;
+    }
+    
+}

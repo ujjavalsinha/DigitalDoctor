@@ -1,0 +1,142 @@
+*{
+    animation : transitionIn 0.8s;
+}
+
+h2{
+    margin-top : 80px;
+    text-align : center;
+    box-sizing: border-box;
+    color : #0049B7;
+    
+}
+
+
+.Start{
+    display : flex;
+    flex-direction : column;
+    height : 400px;
+    align-items : center;
+    margin : auto;
+    margin-top : 30px;
+    color :  #777672;
+    
+}
+
+.Start img{
+    height : 20px;
+    width : 20px;
+    
+}
+
+.Start button{
+    margin-top : 20px;
+    background-color :  #0049B7;
+    border : none;
+    transition : transform 0.5s ease-out;
+    padding : 5px 10px;
+    color : white;
+    border-radius : 5px;
+    font-size : 17px;
+    margin-bottom : 30px;
+}
+
+.VoiceForm {
+    display : flex;
+    flex-direction : column;
+    margin-left: auto;
+    margin-right : auto;
+    margin-top : 30px;
+    width : 40%;
+    height : 100vh;
+}
+
+.answerinstruction{
+    text-align : center;
+    color : white;
+    background-color : #73c2fb;
+    
+    border-radius : 5px;
+}
+.Report{
+    width : 100%;
+    background-color :  #0049B7;
+    border : none;
+    transition : transform 0.5s ease-out;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    color : white;
+    font-size : 20px;
+    border-bottom-right-radius : 8px;
+    border-bottom-left-radius : 8px;
+
+}
+.Questions{
+    height : 70vh;
+    border : 1px solid black;
+    border-top-right-radius : 8px;
+    border-top-left-radius : 8px;
+    padding : 10px;
+    display:flex;
+    flex-direction : column;
+    overflow : auto;
+}
+
+.Question {
+    
+    padding : 10px;
+    justify-content : start;
+    font-size : 18px;
+    background-color :  #0049B7;
+    color : white;
+    width : 70%
+}
+
+.Answer{
+    padding : 10px;
+    font-size : 18px;
+    background-color : #f1f2ee;
+    display : flex;
+    margin-right : 0;
+    width : 70%;
+    margin-right : 0;
+    margin-left : auto;
+}
+
+.Listener{
+    border : 1px solid black;
+    display : flex;
+    border-bottom-right-radius : 8px;
+    border-bottom-left-radius : 8px;
+    justify-content : flex-end;
+}
+
+.Listener img{
+    width : 30px;
+    height : 30px;
+    margin : 5px 8px 5px 5px;
+    cursor : pointer;
+}
+
+.Continue {
+    background-color : rgb(21, 151, 21);
+    border : none;
+    transition : transform 0.5s ease-out;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    color : white;
+    font-size : 20px;
+    border-bottom-right-radius : 8px;
+    border-bottom-left-radius : 8px;
+}
+
+@keyframes transitionIn{
+    from {
+        opacity : 0;
+        transform : rotateX(-10)
+    }
+    to {
+        opacity : 1;
+        transform : rotateX(0)
+
+    }
+}

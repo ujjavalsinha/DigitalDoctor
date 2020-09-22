@@ -1,0 +1,14 @@
+.start{
+    width : 25px;
+    height : 25px;
+    cursor : pointer;
+    margin : 5px;
+    
+}
+
+.spinner {
+    width : 30px;
+    height : 30px;
+    margin-top : 5px;
+    transition : none !important;
+}

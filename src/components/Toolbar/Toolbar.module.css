@@ -1,0 +1,38 @@
+.Toolbar{
+    margin : 0;
+    padding : 0;
+    position : fixed;
+    height : 10vh;
+    /* background-image: linear-gradient(to right, #868f96 0%, #596164 100%); */
+    background-color : #0049B7;
+    box-sizing : border-box;
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    width : 100%;
+    z-index : 0;
+}
+
+.Nav{
+    flex : 1;
+    
+}
+.Logo{
+    flex : 2;
+    box-sizing : border-box;
+    display : flex;
+    margin-top : 18px;
+    align-items : center;
+    
+    /* justify-content : space-evenly; */
+}
+
+/* @media (max-width : 500px){
+    .Toolbar{
+        display : none;
+    }
+} */
+
+
+
+

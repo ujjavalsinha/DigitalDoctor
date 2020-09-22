@@ -1,0 +1,131 @@
+.UserForm form{
+    margin : auto;
+    margin-top : 60px;
+    min-width : 250px;
+    padding : 20px;
+    border : 1px solid #DCDCDC;
+    display : flex;
+    flex-direction : column;
+    width : 70%;
+    border-radius : 8px;
+    
+}
+.MainPage{
+    padding : 50px;
+    height : 100vh;
+    display :flex;
+    align-items : center;
+    width : 100%;
+    margin : auto;
+    justify-content : space-between;
+
+}
+
+
+.Fillform{
+    flex : 1;
+    text-align : center;
+}
+.Fillform img{
+    
+    width : 60%;
+    height : 60%
+}
+
+.UserForm{
+    flex : 1;
+    line-height : 1.8;
+    animation : transitionIn 0.8s;
+    /* padding : 20px 20px 50px 20px;
+    border : none;
+    
+    border-radius : 8px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.58); */
+}
+.UserForm label{
+    font-size : 14px;
+}
+.UserForm input{
+    /* background-color :  */
+    font-size : 15px;
+    height : 35px;
+    border-radius : 5px;
+    border : 2px solid #DCDCDC;
+    margin-bottom : 8px;
+}
+.heading{
+    text-align : center;
+    color : #0049B7;
+    text-decoration : none;
+    
+}
+.UserForm input:focus{
+    outline : none;
+    /* background-color : #DCDCDC; */
+}
+.UserFormContinue{
+    margin-bottom : 10px;
+    margin-top : 15px;
+    background-color : rgb(21, 151, 21);
+    border : none;
+    width : 50%;
+    margin-left : auto;
+    margin-right : auto;
+    color : white;
+    font-weight : bold;
+    font-size : 20px;
+    padding : 10px 20px;
+    border-radius : 10px;
+    transition : transform 0.5s ease-out;
+}
+.errors{
+    color : red;
+    font-size : 14px;
+}
+.UserFormContinue:hover{
+    background-color : green;
+}
+label.required:after {content: " *"; color: red;}
+/* .UserFormContinue:disabled {
+    background-color: #C7C6C6;
+    cursor: not-allowed;
+    border: 1px solid #ccc;
+    color: #888888;
+} */
+.UserForm h1{
+    font-size : 25px;
+    text-align : center;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity : 0;
+        transform : rotateX(-10);
+    }
+    to{
+        opacity : 1;
+        transform : rotateX(0);
+
+    }
+}
+
+@media (max-width : 500px){
+    .UserForm{
+        width : 90%;
+    }
+
+    .MainPage{
+        width : 100%;
+    }
+    .Fillform{
+        display : none;
+    }
+
+    .UserForm form{
+        width : 100%;
+    }
+    
+}
+

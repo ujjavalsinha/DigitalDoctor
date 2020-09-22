@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ec85c7b0.chunk.css",
+    "main.js": "/static/js/main.d9de92e1.chunk.js",
+    "main.js.map": "/static/js/main.d9de92e1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.05f9f98c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.05f9f98c.js.map",
+    "static/js/2.d752087f.chunk.js": "/static/js/2.d752087f.chunk.js",
+    "static/js/2.d752087f.chunk.js.map": "/static/js/2.d752087f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.257a753785eb3e9268e23391ab3dcf68.js": "/precache-manifest.257a753785eb3e9268e23391ab3dcf68.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ec85c7b0.chunk.css.map": "/static/css/main.ec85c7b0.chunk.css.map",
+    "static/js/2.d752087f.chunk.js.LICENSE.txt": "/static/js/2.d752087f.chunk.js.LICENSE.txt",
+    "static/media/consulting.svg": "/static/media/consulting.273ade07.svg",
+    "static/media/doctor.PNG": "/static/media/doctor.01ccc853.PNG",
+    "static/media/dosanddonts.jpg": "/static/media/dosanddonts.c3e475f5.jpg",
+    "static/media/fillforms.svg": "/static/media/fillforms.bd4fc7cd.svg",
+    "static/media/hand-wash.svg": "/static/media/hand-wash.ef9b2c45.svg",
+    "static/media/microphone.svg": "/static/media/microphone.2bb2da82.svg",
+    "static/media/monitor.svg": "/static/media/monitor.cc39dbd2.svg",
+    "static/media/patient.svg": "/static/media/patient.41455ced.svg",
+    "static/media/send.svg": "/static/media/send.382f1e7d.svg",
+    "static/media/social.svg": "/static/media/social.2308a6a1.svg",
+    "static/media/spinner.svg": "/static/media/spinner.0843963f.svg",
+    "static/media/stayhome.svg": "/static/media/stayhome.bff26cfc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05f9f98c.js",
+    "static/js/2.d752087f.chunk.js",
+    "static/css/main.ec85c7b0.chunk.css",
+    "static/js/main.d9de92e1.chunk.js"
+  ]
+}

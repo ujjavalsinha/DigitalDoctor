@@ -1,0 +1,79 @@
+.About{
+    display : flex;
+    width : 80%;
+    margin : auto;
+    align-items : center;
+    justify-content : center;
+    margin-top : 80px;
+}
+
+.About .Content{
+    flex : 1;
+    display : flex;
+    flex-direction : column;
+
+    
+}
+.heading{
+    animation : transitionUp 0.8s;
+    font-size : 32px;
+    text-align : center;
+    font-weight : bolder;
+}
+.Image{
+    flex : 1;
+    text-align : center;
+    
+}
+
+.Image img{
+    margin-left : 30px;
+    width : 270px;
+    height : 420px;
+}
+
+.Content .message{
+    font-size : 16px;
+    font-weight : 600;
+}
+
+ul{
+    line-height : 2;
+    font-size : 14px;
+}
+
+.heading img{
+    margin-left : 10px;
+    width : 30px;
+    height : 30px;
+}
+
+@keyframes transitionUp{
+    from {
+        /* opacity : 0; */
+        transform : translateY(50px)
+
+    }
+    to{
+        /* opacity : 1; */
+        transform : translateY(0);
+    }
+}
+
+@media(max-width : 768px){
+    .About{
+        display : flex;
+        flex-direction : column;
+        width : 80%;
+    }
+    .heading img{
+        display : none;
+    }
+    .Content .message{
+        text-align : center;
+    }
+
+    .Image img{
+        margin-left : 0;
+    }
+}

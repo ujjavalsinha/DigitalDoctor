@@ -1,0 +1,110 @@
+.Guidelines {
+    margin-top : 100px;
+    
+    
+}
+.points{
+    display : flex;
+    flex-flow : row wrap;
+    width : 50%;
+    justify-content : center;
+    margin : auto;
+}
+
+.points .mask{
+    background-color : #FF1D58;
+    padding : 20px;
+    width : 250px;
+    color : white;
+    margin : 5px;
+    display : flex;
+    flex-direction : column;
+    /* align-items : center; */
+}
+.points .social{
+    padding : 20px;
+    background-color : #FFF685;
+    width : 250px;
+    margin : 5px;
+    color : #0049B7;
+    margin : 10px;
+    display : flex;
+    flex-direction : column;
+    /* align-items : center; */
+}
+.points .stayhome{
+    padding : 20px;
+    background-color : #0049B7;
+    color : white;
+    margin : 5px;
+    width : 250px;
+    margin : 10px;
+    display : flex;
+    flex-direction : column;
+    /* align-items : center; */
+}
+.points .handwash{
+    padding : 20px;
+    background-color : #00DDFF;
+    width : 250px;
+    margin : 5px;
+    
+    color : #0049B7;
+    display : flex;
+    flex-direction : column;
+    /* align-items : center; */
+}
+
+.Guidelines p{
+    font-size : 25px;
+    
+    font-weight : bold;
+}
+.points div div{
+    display : flex;
+    width : 90%;
+    align-items : center;
+}
+
+.points div div p{
+    flex : 1;
+    font-size : 65px;
+}
+.Guidelines div img{
+    margin-left : 30px;
+    width : 65px;
+    height : 65px;
+
+}
+
+.Dosanddonts{
+    text-align : center;
+}
+
+.Dosanddonts img{
+    width : 70%;
+    
+}
+
+@media (max-width : 468px){
+ 
+
+    .points{
+        display : flex;
+        flex-direction : column;
+        margin : auto;
+        width : 90%;
+        margin-left : 15%;
+        
+    }
+
+    .mask,.stayhome,.handwash,.social{
+        text-align : center;
+    }
+
+    .Dosanddonts img{
+        width : 90%;
+    }
+
+   
+}

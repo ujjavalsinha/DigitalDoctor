@@ -1,0 +1,62 @@
+.Sidedrawer{
+    box-sizing : border-box;
+    position : fixed;
+    width : 280px;
+    max-width : 70%;
+    height : 100%;
+    left :0 ;
+    top : 0;
+    z-index : 200;
+    background-color : white;
+    transition : transform 0.5s ease-out;
+    
+}
+.Logo {
+    margin-top : 20px;
+    margin-left : 20px;
+}
+.navbar ul{
+    list-style : none;
+    margin : 25px;
+    display :flex;
+    flex-direction : column;
+    height : 150px;;
+    justify-content : space-evenly;
+}
+.Sidedrawer .navbar li{
+    transition-delay : 0.5s;
+}
+.navbar a{
+    
+    color : black;
+    font-size : 20px;
+    text-decoration : none;
+    padding : 8px 15px;
+}
+
+.navbar a:hover{
+    background-color : black;
+    color : white;
+}
+.Open{
+    transform : translateX(0)
+}
+
+.Close{
+    transform : translateX(-100%)
+}
+
+@media (min-width : 500px){
+    .Sidedrawer{
+        display : none;
+    }
+    .Backdrop{
+        display : none;
+    }
+    
+}
+
+
+
+
+

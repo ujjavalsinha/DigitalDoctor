@@ -1,0 +1,106 @@
+.Report {
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    width : 800px;
+    margin : auto;
+    margin-top : 100px;
+    border : 1px solid black;
+    padding : 15px;
+    border-radius : 8px;
+    background-color : #E6E6FA
+}
+.Generate{
+    display : flex;
+    flex-direction : column;
+    margin : auto;
+    margin-top : 100px;
+    align-items : center;
+}
+
+.Generate button{
+    margin-top : 20px;
+    background-color :  #0049B7;
+    border : none;
+    padding : 5px 10px;
+    color : white;
+    border-radius : 5px;
+    
+}
+.UserRisk{
+    display :flex;
+    width : 80%;
+    justify-content : space-between;
+    align-items : center;
+    margin-bottom : 20px;
+}
+
+.ReadingSymptom{
+    display : flex;
+    width : 80%;
+    justify-content: space-between;
+}
+
+.High{
+    color : orange;
+    font-weight : bolder;
+    font-size : 25px;
+}
+
+.Low{
+    color : green;
+    font-weight : bolder;
+    font-size : 20px;
+}
+
+.VeryHigh{
+    color : red;
+    font-size : 20px;
+    font-weight : bolder;
+}
+
+.Medium{
+    color :#0049B7;
+    font-size : 20px;
+    font-weight : bolder;
+}
+
+.Suggestion{
+    margin-top : 20px;
+}
+
+table{
+    width : 100%;
+    margin-bottom : 20px
+}
+
+table td{
+    width : 50%;
+}
+
+.Prescriptions p{
+    text-align : center;
+    background-color: #0049B7;
+    color : white;
+}
+.Prescriptions h3{
+    color : #0049B7;
+    text-align : center;
+    text-decoration : underline;
+}
+.Userdetails,.Symptoms,.Readings{
+    line-height : 0.85;
+}
+
+.Userdetails h4,.Symptoms h4,.Readings h4{
+    line-height : 0.85;
+    text-decoration: underline;
+    margin-bottom : 10px;
+}
+
+.Suggestion {
+    text-align : center;
+    font-size : 18px;
+    margin-bottom : 8px;
+    
+}

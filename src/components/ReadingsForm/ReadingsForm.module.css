@@ -1,0 +1,96 @@
+.ReadingsForm form{
+    display : flex;
+    flex-direction : column;
+    
+}
+.errors{
+    color : red;
+    font-size : 14px;
+}
+.ReadingsForm h1{
+    text-align : center;
+    font-size : 30px;
+    
+}
+.ReadingsForm{
+    padding : 15px;
+    min-width : 400px;
+    border-radius : 8px;
+    line-height : 2;
+    border : 1px solid  #DCDCDC;
+    animation : transitionIn 0.8s;
+    width : 35%;
+    
+    margin-top : 100px;
+    margin-left : auto;
+    margin-right : auto;
+    margin-bottom : 30px;
+    
+    /* padding : 20px 20px 50px 20px;
+    border : none;
+    
+    border-radius : 8px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.58); */
+}
+.ReadingsForm label{
+    font-size : 15px;
+}
+.ReadingsForm input{
+    /* background-color :  */
+    font-size : 15px;
+    height : 35px;
+    border-radius : 5px;
+    border : 2px solid #DCDCDC;
+    margin-bottom : 8px;
+}
+
+.ReadingsForm input:focus{
+    outline : none;
+    /* background-color : #DCDCDC; */
+}
+.ReadingContinue{
+    margin-left : auto;
+    margin-right : auto;
+    background-color : rgb(21, 151, 21);
+    border : none;
+    width : 50%;
+    color : white;
+    font-weight : bold;
+    font-size : 20px;
+    padding : 5px 5px;
+    border-radius : 10px;
+    transition : transform 0.5s ease-out;
+    outline : none;
+}
+
+.ReadingContinue:hover{
+    background-color : green;
+}
+label.required:after {content: " *"; color: red;}
+.ReadingContinue:disabled {
+    background-color: #C7C6C6;
+    cursor: not-allowed;
+    border: 1px solid #ccc;
+    color: #888888;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity : 0;
+        transform : rotateX(-10);
+    }
+    to{
+        opacity : 1;
+        transform : rotateX(0);
+
+    }
+}
+
+@media (max-width : 500px){
+    .ReadingsForm{
+        width : 90%;
+    }
+}
+
